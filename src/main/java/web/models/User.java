@@ -8,10 +8,6 @@ import java.io.Serializable;
 @Entity
 @Table(name = "User")
 public class User {
-//    @Id
-//    @GeneratedValue(generator = "increment")
-//    @GenericGenerator(name = "increment", strategy = "increment")
-//    @Column(name = "id", nullable = false)
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
