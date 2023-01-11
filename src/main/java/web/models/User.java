@@ -1,9 +1,7 @@
 package web.models;
 
-import org.hibernate.annotations.GenericGenerator;
+import jakarta.persistence.*;
 
-import javax.persistence.*;
-import java.io.Serializable;
 
 @Entity
 @Table(name = "User")
